@@ -21,9 +21,6 @@ a:link, a:visited {
     text-align:left;
     margin-left: 60px;
 }
-.key-skills{
-    
-}
 li::before {
     content: "-";
   }
