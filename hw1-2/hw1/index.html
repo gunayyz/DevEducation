@@ -12,32 +12,32 @@
 <body>
     <div class="allcontent">
         <header class="title">
-            <h1><strong>Position:</strong>Junior Frontend Developer</h1>
+            <h1>Position:<span>Junior Frontend Developer</span></h1>
             <div class="head">
                 <img width="200" src="https://www.refinery29.com/images/9035711.jpg" alt="developer">
                 <div class="aboutme">
-                    <p><b>Name:</b>Gunay Abbasova</p>
-                    <p><b>Github:</b><a href="https://github.com/gunayyz">gunayyz</a></p>
-                    <p><b>Course number:</b> 4</p>
+                    <p><b>Name:</b> Gunay Abbasova</p>
+                    <p><b>Github:</b><a href="https://github.com/gunayyz"> gunayyz</a></p>
+                    <p><b>Course number:</b> 4th</p>
                 </div>
             </div>
 
         </header>
         <main>
+            <form action="https://github.com/gunayyz">
             <div class="birth">
-                <form action="https://github.com/gunayyz">
                     <label for="birthday"><b>Birth Date:</b></label>
                     <input type="date" id="birthdate" name="birthdate" value="2001-03-04">
             </div>
             <div class="englevel">
                 <p><b>English Level:</b></p>
-                <input type="radio" name="level" >
+                <input type="radio" name="level">
                 <label for="bad">Bad</label>
-                <input type="radio" name="level"  checked>
+                <input type="radio" name="level" >
                 <label for="middle">Middle</label>
-                <input type="radio" id="good" name="level" >
+                <input type="radio" id="good" name="level" checked>
                 <label for="good">Good</label>
-                <input type="radio" id="awesome" name="level" >
+                <input type="radio" id="awesome" name="level">
                 <label for="awesome">Awsome</label>
             </div>
             <div class="key-skills">
@@ -57,7 +57,7 @@
             <div class="lang-opt">
                 <label for="lang"> <b>Lang sector:</b> </label>
                 <select name="lang" id="lang" placeholder="please put text here">
-                    <option value="aze" >AZE</option>
+                    <option value="aze">AZE</option>
                     <option value="eng">ENG</option>
                     <option value="ru">RU</option>
                 </select>
@@ -75,22 +75,45 @@
                 <label for="">Skill 1</label>
                 <input type="checkbox" checked>
                 <label for="">Skill 2</label>
-                <input type="checkbox" >
+                <input type="checkbox">
                 <label for="">Skill 3</label>
                 <input type="checkbox" checked>
                 <label for="">Skill 4</label>
             </div>
             <div class="education">
                 <p><b>Education:</b></p>
-                <ul>
-                    <li>BSU</li>
-                <li>Dev Academy</li>
-                </ul>
+                <table>
+                    <tr>
+                      <th>#</th>
+                      <th>Date</th>
+                      <th>Place</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                      <td>2008-2019</td>
+                      <td>Sumgait 22th school</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td>2019-2023</td>
+                      <td>Baku State University</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>2022</td>
+                        <td>Code Academy</td>
+                      </tr>
+                    <tr>
+                      <td>4</td>
+                      <td>2022-2023</td>
+                      <td>Dev Education</td>
+                    </tr>
+                    
+                  </table>
                 <button>Save profile</button>
 
-
             </div>
-
+        </form>
         </main>
     </div>
 

@@ -3,13 +3,26 @@
     display: flex;
 
 }
-.title{
-    text-align: center;
+span{
     font-family:'Lora', sans-serif;
+
 }
+.title , h1{
+    
+    text-align: center;
+}
+a.aboutme{
+    text-decoration:none;
+
+
+}
+a:link, a:visited { 
+    color: rgb(255, 110, 175);
+    text-decoration: none;
+    cursor:pointer;
+  }
 .aboutme{
     text-align:left;
-
     margin-left: 60px;
 }
 .key-skills{
@@ -22,3 +35,15 @@ li::before {
     max-width: 700px;
     margin: auto;
   }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
