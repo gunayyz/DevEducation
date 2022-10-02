@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 .head{
     display: flex;
-
 }
 span{
     font-family:'Lora', sans-serif;
-
 }
 .title , h1{
     
@@ -13,8 +11,6 @@ span{
 }
 a.aboutme{
     text-decoration:none;
-
-
 }
 a:link, a:visited { 
     color: rgb(255, 110, 175);
@@ -45,5 +41,4 @@ li::before {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
-  
+}
