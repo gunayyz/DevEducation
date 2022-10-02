@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+.head{
+    display: flex;
+
+}
+.title{
+    text-align: center;
+    font-family:'Lora', sans-serif;
+}
+.aboutme{
+    text-align:left;
+
+    margin-left: 60px;
+}
+.key-skills{
+    
+}
+li::before {
+    content: "-";
+  }
+  .allcontent {
+    max-width: 700px;
+    margin: auto;
+  }
