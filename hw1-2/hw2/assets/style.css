@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Give+You+Glory&family=Nunito:ital@1&display=swap');
+body{
+  height: auto;
+    background-color: rgb(248, 237, 227);
+    background-image: linear-gradient(rgb(248, 237, 227), rgb(212, 131, 202),rgb(117, 78, 52));
+
+  font-family: 'Nunito', sans-serif;
+  background-image: url(./images/background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 900px;
+}
+.head{
+    display: flex;
+}
+main{
+  margin-top: 50px;
+}
+span{
+  font-size: 40px;
+  font-family: 'Give You Glory', cursive;
+}
+
+.title , h1{
+    
+    text-align: center;
+}
+a.aboutme{
+    text-decoration:none;
+}
+a:link, a:visited { 
+    color: rgb(255, 110, 175);
+    text-decoration: none;
+    cursor:pointer;
+  }
+.aboutme{
+    text-align:left;
+    margin-left: 60px;
+}
+li::before {
+    content: "-";
+  }
+  .allcontent {
+    max-width: 700px;
+    margin: auto;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.card {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+.layer {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  transition: all 400ms ease-in-out;
+  z-index: 2;
+}
+a {
+  height: 100%;
+  width: 100%;
+  transition: background-color 200ms ease-in-out;
+}
+a:hover,
+a:focus {
+background-color: #aab8c2;
+}
+
+a:hover svg {
+transform: scale(1.2);
+transform-origin: center;
+transform-box: fill-box;
+}
+svg {
+  fill: #fff;
+  position: absolute;
+  transition: transform 200ms ease-in-out;
+}
+
+.twitter {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #1da1f2;
+  clip-path: polygon(50% 0%, 100% 0, 100% 50%, 50% 50%);
+}
+.twitter svg {
+  top: 8%;
+  right: 5%;
+}
+
+.instagram {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #e1306c;
+  clip-path: polygon(0% 0%, 50% 0%, 50% 50%, 0% 50%);
+}
+.instagram svg {
+  top: 10%;
+  left: 8%;
+}
+
+.facebook {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #4267b2;
+  clip-path: polygon(100% 50%, 100% 100%, 50% 100%, 50% 50%);
+}
+
+.facebook svg {
+  bottom: 8%;
+  right: 8%;
+}
+
+.linkdin {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #0072b1;
+  clip-path: polygon(0% 50%, 50% 50%, 50% 100%, 0% 100%);
+}
+
+.linkdin svg {
+  bottom: 10%;
+  left: 8%;
+}
+.contact{
+  width: 100%;
+  display: flex;
+justify-content: flex-start;
+
+
+  font-size: 1.7rem;
+  margin-right: 300px;
+  padding: 5px 0px ;
+  position: absolute;
+  bottom: -40px;
+  background-color: rgb(3, 188, 142);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+}
+.contact:hover , .contact:focus{
+  background-color: rgb(149, 158, 175);
+}
+#checkbox{
+  display: none;
+}
+#checkbox:checked + .layer{
+  clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+
+.title {
+  background-image: linear-gradient(
+    to right,
+    #d65495,
+    #54b3d6 50%,
+    #d65495 50%
+  );  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+span {
+  background-image: linear-gradient(
+    to right,
+    #d65495,
+    #54b3d6 50%,
+    #d65495 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+a:before {
+  content: '';
+  background: #54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+span:hover {
+ background-position: 0;
+}
+
+span:hover::before {
+  width:100%;
+}
+button{
+  background-color: #d65495; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
