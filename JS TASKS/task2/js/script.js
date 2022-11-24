@@ -63,7 +63,22 @@
 // console.log(sum);
 
 
+//5. The user enters 1 positive number (N). Print the Nth number of the fibonacci series. In the fibonacci series, each next number is the sum of the previous two. The first and second are considered equal to 1
 
-//5. The user enters 1 positive number (N). Print the Nth number of the fibonacci series. In the fibonacci series, each next number is the sum of the previous two. The first and second are considered equal to
+// let N=+prompt("enter N");
+// while (isNaN(N) || N=="" ||N<0){
+//     N=+prompt("Please try again. you should enter a positive number:");
+//    }
+// console.log(fib(N));
+// function fib(N) {
+//     if (N <= 1){
+//         return N;
+//     }
+//     return fib(N-1) + fib(N-2);
+// }
+
 //6. The user enters 2 numbers. Find their greatest common divisor using Euclid's algorithm. 
+
 //7. The user enters 1 number. Find a number that is a mirror image of the sequence of digits of a given number, for example, given the number 123, output is 321 in this case
+
+
