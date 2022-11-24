@@ -7,7 +7,16 @@
 // }
 
 //2. The user enters 1 number (A). Find the number of positive integers whose square is less than A (n^2 < A).
+//17
+//16<4
+//0 1 2 3 4
 
+// let a=+prompt("enter a");
+// for (let i = 0; i < a; i++) {
+//     if (i*i<a) {
+//         console.log(i);
+//     }
+// }
 
 
 
