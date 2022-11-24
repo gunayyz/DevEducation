@@ -78,6 +78,25 @@
 // }
 
 //6. The user enters 2 numbers. Find their greatest common divisor using Euclid's algorithm. 
+//90 54
+
+// let a=+prompt("enter a");
+// while (isNaN(a) || a=="" || a<0){
+//     a=+prompt("Please enter correctly");
+//    }
+// let b=+prompt("enter b");
+// while (isNaN(b) || b=="" || b<0){
+//     b=+prompt("Please enter correctly");
+//    }
+// let reminder=0;
+// while (a%b>0) {
+//     reminder=a%b;
+//     a=b;
+//     b=reminder;
+// }
+// if (a%b==0) {
+//     console.log(b);
+// }
 
 //7. The user enters 1 number. Find a number that is a mirror image of the sequence of digits of a given number, for example, given the number 123, output is 321 in this case
 
