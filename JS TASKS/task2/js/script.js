@@ -99,5 +99,18 @@
 // }
 
 //7. The user enters 1 number. Find a number that is a mirror image of the sequence of digits of a given number, for example, given the number 123, output is 321 in this case
+// let a=+prompt("enter a"); 
+// while (isNaN(a) || a=="" || a<0){
+//     a=+prompt("Please enter correctly");
+//    }
+// let reverse=0;
+// let remainder=0;
+// while (a>0) {
+//         remainder=a%10;
+//         reverse=reverse*10+remainder;
+//         a=parseInt(a/10);
+        
+//     }
+//     console.log(reverse);
 
 //8. The user enters 2 numbers. Find out if these two numbers have the same digits. For example, for a pair of 123 and 3456789, the answer would be "YES", and for a pair of 500 and 99, "NO".
