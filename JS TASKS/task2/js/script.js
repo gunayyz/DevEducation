@@ -1,5 +1,9 @@
 //1. The user enters 1 number (A). Print all numbers from 1 to 1000 that are divisible by A.
+
 // let a=+prompt("enter a");
+// while (isNaN(a) || a==""){
+//     a=+prompt("Please try again. Value must be a number:");
+//    }
 // for (let i = 0; i < 1000; i++) {
 //     if (i%a==0) {
 //         console.log(i);
@@ -12,15 +16,29 @@
 //0 1 2 3 4
 
 // let a=+prompt("enter a");
+// while (isNaN(a) || a==""){
+//     a=+prompt("Please try again. Value must be a number:");
+//    }
 // for (let i = 0; i < a; i++) {
 //     if (i*i<a) {
 //         console.log(i);
 //     }
 // }
 
-
-
 //3. The user enters 1 number (A). Print the largest divisor (other than A itself) of the number A.
+//16-8
+
+// let a=+prompt("enter a");
+// while (isNaN(a) || a==""){
+//     a=+prompt("Please try again. Value must be a number:");
+//    }
+// let largestDiv=0;
+// for (let div = 1; div < a; div++) {
+//     if(a%div==0){
+//         largestDiv=div;
+//     }
+// }
+// console.log(largestDiv);
 
 
 
