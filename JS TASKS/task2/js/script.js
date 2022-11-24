@@ -44,27 +44,23 @@
 
 //4. The user enters 2 numbers (A and B). Print the sum of all numbers from the range
 // A to B that are divisible by 7 without a remainder. (Note that B may be less than A if you type).
-//12 and 20 
 
-let a=+prompt("enter a");
+// let a=+prompt("enter a");
+// while (isNaN(a) || a=="" || a%7!=0){
+//     a=+prompt("Please try again.you should enter a number and this number should be divisible by 7 without a remainder. ");
+//    }
 
-while (isNaN(a) || a==""){
-    a=+prompt("Please try again.you should enter a number:");
-   }
-let b=+prompt("enter b");
-while (isNaN(b) || b==""){
-    b=+prompt("Please try again.you should enter a number:");
-   }
-let sum=0;
-while (a>b) {
-    
-}
-for (let i = 1; i < a; div++) {
-    if (condition) {
-        
-    }
-}
+// let b=+prompt("enter b");
+// while (isNaN(b) || b=="" || a%7!=0 || a<b){
+//     b=+prompt("value must be a number and this number should be divisible by 7 without a remainder. and b should be less than a.");
+//    }
 
+// let sum=0;
+// for (let i = b; i <= a; i++) //14<21 answer:140
+// {
+//     sum=sum+i;
+// }
+// console.log(sum);
 
 
 
