@@ -1,9 +1,10 @@
 //1. The user enters 1 number (A). Print all numbers from 1 to 1000 that are divisible by A.
-
-
-
-
-
+// let a=+prompt("enter a");
+// for (let i = 0; i < 1000; i++) {
+//     if (i%a==0) {
+//         console.log(i);
+// }
+// }
 
 //2. The user enters 1 number (A). Find the number of positive integers whose square is less than A (n^2 < A).
 
