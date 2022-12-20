@@ -44,6 +44,7 @@
 
 //4. The user enters 2 numbers (A and B). Print the sum of all numbers from the range
 // A to B that are divisible by 7 without a remainder. (Note that B may be less than A if you type).
+//21 and 14
 
 // let a=+prompt("enter a");
 // while (isNaN(a) || a=="" || a%7!=0){
@@ -56,14 +57,17 @@
 //    }
 
 // let sum=0;
-// for (let i = b; i <= a; i++) //14<21 answer:140
+// for (let i = b; i <= a; i++) //14<21 
 // {
 //     sum=sum+i;
+
+
 // }
 // console.log(sum);
 
 
-//5. The user enters 1 positive number (N). Print the Nth number of the fibonacci series. In the fibonacci series, each next number is the sum of the previous two. The first and second are considered equal to 1
+//5. The user enters 1 positive number (N). Print the Nth number of the fibonacci series. 
+//In the fibonacci series, each next number is the sum of the previous two. The first and second are considered equal to 1
 
 // let N=+prompt("enter N");
 // while (isNaN(N) || N=="" ||N<0){
@@ -76,6 +80,7 @@
 //     }
 //     return fib(N-1) + fib(N-2);
 // }
+
 
 //6. The user enters 2 numbers. Find their greatest common divisor using Euclid's algorithm. 
 //90 54
@@ -98,7 +103,10 @@
 //     console.log(b);
 // }
 
+
 //7. The user enters 1 number. Find a number that is a mirror image of the sequence of digits of a given number, for example, given the number 123, output is 321 in this case
+//13 31
+
 // let a=+prompt("enter a"); 
 // while (isNaN(a) || a=="" || a<0){
 //     a=+prompt("Please enter correctly");
@@ -113,4 +121,34 @@
 //     }
 //     console.log(reverse);
 
-//8. The user enters 2 numbers. Find out if these two numbers have the same digits. For example, for a pair of 123 and 3456789, the answer would be "YES", and for a pair of 500 and 99, "NO".
+
+
+
+
+//8. The user enters 2 numbers. Find out if these two numbers have the same digits. 
+//For example, for a pair of 123 and 3456789, the answer would be "YES", and for a pair of 500 and 99, "NO".
+// let num1 = prompt(" enter num1");
+// let num2 = prompt(" enter num2");
+// let count=0;
+// for (let i = num2; i > 0; i--) {
+//  if (num1%i==0&&num2%i==0) {
+//     count++;
+//  }
+    
+// }
+// if (count>1) {
+//     console.log("Yes");
+// }
+// else{
+//       console.log("No");
+ 
+// }
+
+
+
+
+
+
+
+
+

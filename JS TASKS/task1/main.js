@@ -1,4 +1,3 @@
-
 //TASK1
 //1. User gives 2 numbers (A and B). Print to the console the result of dividing A by B and the remainder of the division.
 
@@ -58,3 +57,29 @@
 // else {
 //     console.log("no real roots")
 // }
+//6. The user enters a two-digit number. Print the literal representation of this number to the console. For example, typing "25" will display "twenty five" in the console, and "13" will display "thirteen".
+// let number = Number(prompt('Enter the number : '))
+
+// if(number == 25){
+//     console.log("Twenty five");
+// }
+// else if(number == 13){
+//     console.log("Thirteen");
+// }
+// else{
+//     console.log("You can enter only 13 and 25 ");
+// }
+
+//7. User gives 3 numbers (x, y, r). Find out if point with location (x,y) is inside a circle with radius r? (the center of the circle is at the origin)
+
+// let a = Number(prompt('Enter the a : '))
+// let b = Number(prompt("Enter the b : "))
+// let c = Number(prompt('Enter the c : '))
+
+// if(c > a && c > b){
+//     console.log("It is in inside the circle");
+// }
+// else{
+//     console.log("It is in outside");
+// }
+
